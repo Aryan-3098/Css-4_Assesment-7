@@ -90,20 +90,20 @@
     grid-column: 1/-1;
 }
 #green_box{
-    font-size: 30px;
+    font-size: 1.9rem;
     height: min-content;
     text-align: center;
     background-color: #57d169;
     grid-column: 1/2;
 }
 #lblue_box{
-    font-size: 30px;
+    font-size: 1.9rem;
     height: min-content;
     background-color: #2583f7;
     grid-column: 2/3;
 }
 #blue_box{
-    font-size: 20px;
+    font-size: 1.3rem;
     height: min-content;
     background-color: #4847ea;
     grid-column: 3/4;
@@ -133,4 +133,20 @@
     font-weight: bold;
     font-size: 18px;
     text-decoration: underline;
+}
+@media only screen and (max-width:1154px){
+    #container_2 li{
+        padding-left: 0rem;
+    }
+    #container_2{
+        margin: 0px 10rem;
+    }
+}
+@media only screen and (max-width:440px){
+    #container_2 li{
+        padding-left: 0rem;
+    }
+    #container_2{
+        margin: 0px 6rem;
+    }
 }
